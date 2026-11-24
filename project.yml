@@ -1,0 +1,29 @@
+name: DrinkOrder
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "18.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+targets:
+  DrinkOrder:
+    type: application
+    platform: iOS
+    sources: [DrinkOrder]
+    info:
+      path: DrinkOrder/Info.plist
+      properties:
+        CFBundleDisplayName: 手搖飲點餐
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIAppFonts:
+          - Besley.ttf
+          - LibreFranklin.ttf
+          - NotoSansTC.ttf
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.DrinkOrder
+        TARGETED_DEVICE_FAMILY: "1"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
