@@ -1,4 +1,4 @@
-# #0X 結合各種輸入元件｜手搖飲點餐
+# #06 結合各種輸入元件｜手搖飲點餐
 
 GitHub 連結：https://github.com/cpcap1214/drink-order
 
